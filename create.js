@@ -3,6 +3,8 @@ import uuid from 'uuid';
 import * as dynamobDbLib from './libs/dynamodb-lib';
 import { success, failure } from './libs/response-lib';
 
+gibberish.what;
+
 export async function main(event, context){
   // Request body is passed in as a JSON encoded string in 'event.body'
   const data = JSON.parse(event.body);
